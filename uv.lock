@@ -3967,6 +3967,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "arize-phoenix-otel" },
+    { name = "datasets" },
     { name = "groq" },
     { name = "ipykernel" },
     { name = "ipywidgets" },
@@ -3993,6 +3994,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "arize-phoenix-otel", specifier = ">=0.9.2" },
+    { name = "datasets", specifier = ">=3.6.0" },
     { name = "groq", specifier = ">=0.24.0" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "ipywidgets", specifier = ">=8.1.7" },
